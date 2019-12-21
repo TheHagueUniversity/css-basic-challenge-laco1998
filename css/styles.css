@@ -11,6 +11,23 @@ https://coolors.co/f7fff7-343434-2f3061-ffe66d-a1c6d7
 
 /* Global styles
 ------------------------------------*/
+.gallery{
+    margin: 50px;
+}
+
+.gallery img{
+    width: 200px;
+    height: 225px;
+    padding: 10px;
+    filter: grayscale(100%);
+    transition: 1s;
+}
+
+.gallery img:hover {
+    filter: grayscale(0%);
+    transform: scale(1.1);
+}
+
 button{
     position: absolute;
     left: 20px;
