@@ -11,6 +11,23 @@ https://coolors.co/f7fff7-343434-2f3061-ffe66d-a1c6d7
 
 /* Global styles
 ------------------------------------*/
+button{
+    position: absolute;
+    left: 20px;
+    top: 25px;
+    padding: 15px 15px;
+    background-color: #6c7b95;
+    color: white;
+    font-size: 17px;
+    border-radius: 8px;
+    border: 2px solid #3a3535;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4;
+}
+button:hover {
+    background-color: white;
+    color: black;
+}
 html {
   box-sizing: border-box;
 }
